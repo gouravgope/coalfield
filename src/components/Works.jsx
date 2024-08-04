@@ -11,7 +11,7 @@ export default Works  */
 /* Here we will going to develop the workSection of the webSite. 1:44:00-2:00:00*/
 
 import React from "react";
-import  Tilt  from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
