@@ -1,4 +1,7 @@
-{/*Here we will create react-3fiblre canvas */}
+{/*Here we will create react-3fiblre canvas 
+  
+  
+  1:00 :- here you can see changes in code*/}
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
@@ -32,9 +35,11 @@ const Computers = ({ isMobile }) => {
   );
 };
 
+
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
+   /*## Here "useEffect is used to change the 'isMobile variable' " */
   useEffect(() => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
@@ -54,7 +59,10 @@ const ComputersCanvas = () => {
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
+     /*## useEffect ends here*/
   }, []);
+ 
+
 
 
   return (

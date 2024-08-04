@@ -1,3 +1,8 @@
+
+/* [Video :- 1:17:50] run-refce */
+ /* This code will make all the component in the middle of the page */
+
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";

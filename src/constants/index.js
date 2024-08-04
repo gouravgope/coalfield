@@ -59,6 +59,8 @@ import {
     },
   ];
   
+/*  Here  We will develop technologies */
+
   const technologies = [
     {
       name: "HTML 5",
@@ -114,6 +116,8 @@ import {
     },
   ];
   
+
+  /* Here we will develop experiences */
   const experiences = [
     {
       title: "React.js Developer",

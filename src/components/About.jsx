@@ -1,3 +1,7 @@
+{/*  Video {1:06 :- }
+  Here we are going to write about Introduction 
+  1. overview
+  2. Make cards & tilt them using "react-tilt" */}
 import React from "react";
 import { Tilt } from "react-tilt"; // Update this line
 import { motion } from "framer-motion";
@@ -6,7 +10,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
+{/* [Cooments inside a fn] :- Here */}
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -35,6 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+{/* */}
 const About = () => {
   return (
     <>
@@ -53,7 +58,7 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-
+         {/* Here service will render "serviceCards" */}
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

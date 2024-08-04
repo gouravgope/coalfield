@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -29,10 +28,12 @@ const Hero = () => {
       {/* Renderinf ComputerCanvas Component */}
       <ComputersCanvas />
       
-      {/*  */}
+      {/*Here we will develop the coll scrolling GIF that let people know that you can scroll down from here  */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        
         <a href='#about'>
+            {/* Now let us develop the point which will move up and down in this "rectangular div"*/}
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
@@ -47,7 +48,11 @@ const Hero = () => {
             />
           </div>
         </a>
+           {/*For developing this div we have used "Framer Motion" */}
       </div>
+
+
+
     </section>
   );
 };
