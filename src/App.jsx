@@ -11,9 +11,13 @@ const App = () => {
           <Hero />
         </div>
         <About />
+
         <Experience />
+
         <Tech />
+          { }
         <Works />
+         {/* JSM will start developing it at 2:01:00 */}
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />

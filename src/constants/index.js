@@ -1,3 +1,4 @@
+ /* Here we are going to define some constants like "navlinks", "experiences in experiences.jsx",   */
 import {
     mobile,
     backend,
@@ -25,6 +26,8 @@ import {
     threejs,
   } from "../assets";
   
+  /* navlinks in  */
+
   export const navLinks = [
     {
       id: "about",
@@ -173,6 +176,7 @@ import {
     },
   ];
   
+  /* Here We are definiting testimonials for "Feedback.jsx" */
   const testimonials = [
     {
       testimonial:
@@ -265,5 +269,6 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
   
   export { services, technologies, experiences, testimonials, projects };
