@@ -45,19 +45,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Quick Links",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Whats New",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Chairman's Desk",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Recruitment",
       icon: creator,
     },
   ];
@@ -65,22 +65,22 @@ import {
 /*  Here  We will develop technologies */
 
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "ECL",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -97,81 +97,71 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
 
   /* Here we will develop experiences */
+    /* Our Business  */
   const experiences = [
+
     {
-      title: "React.js Developer",
+      title: "Marketing & Sales",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing  developers.",
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Quality Control",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing  developers.",
       ],
     },
     {
-      title: "Web Developer",
+      title: "Power Sector Portal",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing  developers.",
       ],
     },
     {
-      title: "Full stack Developer",
+      title: "Consumer Grivence",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining .",
       ],
     },
   ];
@@ -180,8 +170,8 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "It was ",
+      name: "Rohan Rameshwar",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -197,18 +187,20 @@ import {
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "RamKrishana",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
-  const projects = [
+/* Project section  */
+/* Instead of project I'm using the name "Performance"  */
+  const performance = [
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based  for transportation needs.",
       tags: [
         {
           name: "react",
@@ -250,7 +242,7 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive travel booking recommendations for popular destinations.",
       tags: [
         {
           name: "nextjs",
@@ -271,4 +263,4 @@ import {
   ];
 
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, performance };

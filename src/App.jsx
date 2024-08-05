@@ -15,7 +15,7 @@ const App = () => {
         <Experience />
 
         <Tech />
-          { }
+           
         <Works />
          {/* JSM will start developing it at 2:01:00 */}
         <Feedbacks />

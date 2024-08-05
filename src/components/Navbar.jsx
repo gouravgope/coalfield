@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close, logo} from "../assets";
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,13 +45,15 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+        {/*use ecllogo insted of logo in scr{logo} */}
+          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             ECL &nbsp;
             <span className='sm:block hidden'> | Eastern Coal Field Limited</span>
           </p>
         </Link>
-           
+            
+            {/* You can visit "logo.com" to develop the logo */}
   
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((Link) => (

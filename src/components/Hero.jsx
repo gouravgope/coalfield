@@ -1,3 +1,4 @@
+ /* Here we are going to develop the website's 3D computer */
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -17,11 +18,11 @@ const Hero = () => {
         {/* Div for showing name and tagline */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Gourav</span>
+            Eastern Coal Field <span className='text-[#915EFF]'>Limited</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-1 text-white-10`}>
+           Developed By  <br className='sm:block hidden' />
+             System Department !
           </p>
         </div>
       </div>

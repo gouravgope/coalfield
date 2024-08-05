@@ -45,18 +45,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>ABOUT   ECL</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Eastern Coalfields Limited (ECL) is a coal producer based in India. The company was founded in 1975 after nationalisation of coal mines in India. It operates coal mines in Jharkhand and West Bengal states of India. It inherited all the private sector coal mines of the Raniganj Coalfield. It is one of the fully owned subsidiaries of Coal India Limited. The company has its headquarters at Sanctoria, in West Bengal.
       </motion.p>
          {/* Here service will render "serviceCards" */}
       <div className='mt-20 flex flex-wrap gap-10'>
